@@ -44,9 +44,7 @@
 %% [use \begin{abstract*}...\end{abstract*} if exempt from copyright]
 
 \begin{abstract}
-We simulate the focusing of a partially-coherent X-ray beam emitted by an undulator in a fourth-generation storage ring by performing a coherent mode decomposition and wave optics propagation. The focus position is shifted, and its size is enlarged when an entrance slit crops the beam. 
-This is the usual case when a slit is used to select the coherent fraction.
-The pairing of two focusing elements (mirrors, lenses or transfocators) to ensure a fixed focal position is also analyzed. Our results show that the image of a partially coherent source, such an undulator in a low-emittance storage ring, is a non-trivial function of the aperture used to control the coherence fraction.
+We simulate the focusing of a partially-coherent X-ray beam emitted by an undulator in a fourth-generation storage ring by performing a coherent mode decomposition and wave optics propagation. The focus position is shifted, and its size is enlarged when an entrance slit crops the beam. This is the usual case when a slit is used to select the coherent fraction. The pairing of two focusing elements (mirrors, lenses or transfocators) to ensure a fixed focal position is also analyzed. Our results show that the image of a partially coherent source, such an undulator in a low-emittance storage ring, is a non-trivial function of the aperture used to control the coherence fraction.
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%  body  %%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -157,8 +155,6 @@ Figure~\ref{fig:f1f2map} shows the results of the numerical search of the $f_2$ 
 The $\mathcal{I}_0(f_1,f_2)$ maps depend strongly on the slit aperture. In the horizontal, the low $CF_h$ of the source (13\%) is strongly increased when the the slit is being closed, producing appreciable displacement of the pattern in Fig.~\ref{fig:f1f2map}a, thus requiring a fine tuning of $f_2$ to keep the beam focused at the sample plane. In vertical, the source is more coherent ($CF_v=58\%$) and closing the slit does not 
 shift the waist position until reaching $CF_v\approx90\%$. However, when the slit almost closed ($a_v=\SI{25}{\micro\meter}$), that is, acting as a pinhole the patterns approach the ($f_1,f_2$) trajectories resulting from the geometrical optics considering the source at the slit position.
 
-Figure~\ref{fig:focalSizes} shows the calculated focal sizes. Analytical values (dashed lines), based on geometrical optics, i.e. equation~(\ref{eq:magnification}), are close to numeric values of beam sizes for the limiting cases of open slit (source at the undulator) or almost-closed slit (source at the slit). For other useful cases where the slit crops partially the beam, the numerically calculated values should be used. Here, the focal sizes cannot be predicted by geometrical optics (also seen in Fig.~\ref{fig:oneTFund}a), and cannot be simply interpolated from the sizes corresponding to the limiting slit openings. The size values calculated analytically have very limited applicability for practical cases were the beam is partially cropped by the slit. 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[H]
 a)\\
@@ -174,6 +170,8 @@ b)\\
     }
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Figure~\ref{fig:focalSizes} shows the calculated focal sizes. Analytical values (dashed lines), based on geometrical optics, i.e. equation~(\ref{eq:magnification}), are close to numeric values of beam sizes for the limiting cases of open slit (source at the undulator) or almost-closed slit (source at the slit). For other useful cases where the slit crops partially the beam, the numerically calculated values should be used. Here, the focal sizes cannot be predicted by geometrical optics (also seen in Fig.~\ref{fig:oneTFund}a), and cannot be simply interpolated from the sizes corresponding to the limiting slit openings. The size values calculated analytically have very limited applicability for practical cases were the beam is partially cropped by the slit. 
 
 In the horizontal direction, for slit apertures $a_h>\SI{40}{\micro\meter}$ the sizes change considerably for small changes in $a_h$. The focusing characteristics of the system highly depends on the diffraction effects produced at the slit. For the slit $a_h=\SI{40.3}{\micro\meter}$ ($CF_h=90\%$) the focal size can vary from roughly 10 to 50 microns. In vertical the focal size can be changed from 5 to 100~\SI{}{\micro\meter} at $CF_v=90\%$.
 
